@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Bibliothèque de matériaux : matières, propriétés, caractéristiques et applications.">
+<title>Material Database — Bibliothèque des matériaux</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">MATERIAL DATABASE</a>
+  <span class="header-note">Matières · Propriétés · Applications</span>
+</header>
+<section class="hero">
+  <div class="kicker">Bibliothèque de référence · Design & industrie</div>
+  <h1>Comprendre la matière.<br>Concevoir autrement.</h1>
+  <p>Explorez une sélection de matériaux, comparez leurs propriétés et découvrez leurs usages à travers une bibliothèque visuelle pensée pour le design, l'architecture et la fabrication.</p>
+  <div class="hero-meta">Édition 01 &nbsp; / &nbsp; Matières contemporaines</div>
+</section>
+<main class="main-wrap">
+  <div class="toolbar">
+    <div class="search-wrap"><span class="search-icon">⌕</span><input id="search" type="search" placeholder="Rechercher un matériau, une propriété, une application…" aria-label="Rechercher un matériau"></div>
+    <div class="result-count" id="resultCount">Chargement de la bibliothèque…</div>
+  </div>
+  <nav class="filters" id="filters" aria-label="Filtrer par catégorie"></nav>
+  <div class="utility-row">
+    <button class="utility-btn" id="favoritesOnly" type="button">♡ Mes favoris</button>
+    <button class="utility-btn" id="compareToggle" type="button">⇄ Comparer (0)</button>
+    <select class="sort-select" id="sort" aria-label="Trier les matériaux">
+      <option value="default">Ordre de la bibliothèque</option>
+      <option value="name">Nom A → Z</option>
+      <option value="category">Catégorie</option>
+    </select>
+  </div>
+  <section class="material-grid" id="materialGrid" aria-live="polite"></section>
+</main>
+<div class="compare-bar" id="compareBar" hidden>
+  <span id="compareText">Sélectionnez jusqu'à 3 matériaux à comparer.</span>
+  <div><button id="clearCompare" type="button">Effacer</button> <button id="showCompare" type="button">Voir la comparaison</button></div>
+</div>
+<footer class="site-footer"><span>Material Database</span><span>Référentiel visuel des matériaux · Données indicatives</span></footer>
+<script src="js/main.js"></script>
+</body>
+</html>

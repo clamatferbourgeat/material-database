@@ -1,0 +1,774 @@
+[
+  {
+    "id": "abs",
+    "name": "ABS",
+    "category": "Plastiques",
+    "family": "Thermoplastique technique",
+    "subtitle": "Acrylonitrile butadiène styrène",
+    "description": "Un thermoplastique polyvalent qui associe rigidité, résistance aux chocs et facilité de transformation. Il est très présent dans les objets techniques, les boîtiers et les composants automobiles.",
+    "density": "1,04–1,07 g/cm³",
+    "price": "2–5 €/kg (ordre de grandeur)",
+    "priceNote": "Varie selon grade, volume et fournisseur.",
+    "properties": [
+      "Bonne résistance aux chocs",
+      "Bonne rigidité et stabilité dimensionnelle",
+      "Finition de surface soignée",
+      "Transition vitreuse autour de 105 °C"
+    ],
+    "pros": [
+      "Facile à injecter et à usiner",
+      "Bon compromis rigidité / ténacité",
+      "Large choix de grades et de finitions"
+    ],
+    "cons": [
+      "Sensible aux UV sans stabilisation",
+      "Résistance limitée à certains solvants",
+      "Tenue thermique inférieure à certains polymères techniques"
+    ],
+    "uses": [
+      "Boîtiers électroniques",
+      "Pièces automobiles",
+      "Jouets et objets du quotidien",
+      "Pièces imprimées en 3D"
+    ],
+    "process": [
+      "Injection",
+      "Extrusion",
+      "Impression 3D FDM"
+    ],
+    "texture": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Détail de matière industrielle",
+    "applicationAlt": "Environnement de fabrication industrielle"
+  },
+  {
+    "id": "pet",
+    "name": "PET",
+    "category": "Plastiques",
+    "family": "Polyester thermoplastique",
+    "subtitle": "Polyéthylène téréphtalate",
+    "description": "Le PET est un polymère léger, rigide et transparent dans ses grades courants. Il est largement utilisé pour les emballages, les contenants et les fibres textiles.",
+    "density": "1,35–1,40 g/cm³",
+    "price": "1–3 €/kg (ordre de grandeur)",
+    "priceNote": "Le prix dépend fortement du grade vierge ou recyclé.",
+    "properties": [
+      "Bonne transparence",
+      "Bonne résistance mécanique",
+      "Faible absorption d'humidité",
+      "Bonne aptitude au recyclage dans les filières adaptées"
+    ],
+    "pros": [
+      "Léger et robuste",
+      "Bonne barrière aux gaz pour l'emballage",
+      "Disponible en grades recyclés"
+    ],
+    "cons": [
+      "Sensibilité à la chaleur selon le grade",
+      "Séchage nécessaire avant certaines transformations",
+      "Recyclabilité dépendante du tri et des filières"
+    ],
+    "uses": [
+      "Bouteilles et flacons",
+      "Emballages alimentaires",
+      "Fibres polyester",
+      "Films techniques"
+    ],
+    "process": [
+      "Injection",
+      "Soufflage",
+      "Extrusion",
+      "Filage textile"
+    ],
+    "texture": "https://images.unsplash.com/photo-1605600659873-d808a13e4d9a?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Surface plastique et emballage",
+    "applicationAlt": "Contenant transparent en PET"
+  },
+  {
+    "id": "pvc",
+    "name": "PVC rigide",
+    "category": "Plastiques",
+    "family": "Polymère thermoplastique",
+    "subtitle": "Polychlorure de vinyle non plastifié",
+    "description": "Le PVC rigide combine une bonne résistance chimique, une bonne tenue aux intempéries selon formulation et un coût compétitif. Il est courant dans le bâtiment et les réseaux.",
+    "density": "1,35–1,45 g/cm³",
+    "price": "1,5–4 €/kg (ordre de grandeur)",
+    "priceNote": "Dépend de la formulation, des additifs et du volume.",
+    "properties": [
+      "Bonne résistance à de nombreux agents chimiques",
+      "Bon comportement au feu selon formulation",
+      "Bon isolant électrique",
+      "Rigidité ajustable par formulation"
+    ],
+    "pros": [
+      "Durable en applications adaptées",
+      "Entretien limité",
+      "Bonne résistance à la corrosion"
+    ],
+    "cons": [
+      "Sensibilité aux températures élevées",
+      "Impact environnemental lié au chlore et aux additifs",
+      "Recyclage dépendant des filières locales"
+    ],
+    "uses": [
+      "Canalisations",
+      "Menuiseries et profilés",
+      "Gaines électriques",
+      "Revêtements"
+    ],
+    "process": [
+      "Extrusion",
+      "Injection",
+      "Calandrage"
+    ],
+    "texture": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Surface de polymère rigide",
+    "applicationAlt": "Application de matériaux dans le bâtiment"
+  },
+  {
+    "id": "pla",
+    "name": "PLA",
+    "category": "Plastiques",
+    "family": "Polyester biosourcé",
+    "subtitle": "Acide polylactique",
+    "description": "Le PLA est un thermoplastique souvent issu de ressources végétales. Facile à imprimer en 3D, il convient au prototypage et à certains emballages, mais sa tenue thermique reste limitée.",
+    "density": "1,24–1,30 g/cm³",
+    "price": "15–30 €/kg (filament, indicatif)",
+    "priceNote": "Le prix dépend de la forme, du grade et de la qualité.",
+    "properties": [
+      "Biosourçable selon la filière de production",
+      "Bonne rigidité",
+      "Faible retrait en impression 3D",
+      "Température de ramollissement relativement basse"
+    ],
+    "pros": [
+      "Facile à imprimer en 3D",
+      "Bonne précision dimensionnelle",
+      "Existe en grades compostables industriellement"
+    ],
+    "cons": [
+      "Fragilité relative selon formulation",
+      "Faible tenue à la chaleur",
+      "Compostage industriel nécessaire pour certains grades"
+    ],
+    "uses": [
+      "Prototypes",
+      "Maquettes",
+      "Objets décoratifs",
+      "Emballages spécifiques"
+    ],
+    "process": [
+      "Impression 3D FDM",
+      "Extrusion",
+      "Thermoformage"
+    ],
+    "texture": "https://images.unsplash.com/photo-1614036634955-ae5e4f6e0f17?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Matière polymère claire",
+    "applicationAlt": "Prototypage et fabrication numérique"
+  },
+  {
+    "id": "chene",
+    "name": "Chêne",
+    "category": "Bois",
+    "family": "Bois feuillu",
+    "subtitle": "Bois massif à pores ouverts",
+    "description": "Le chêne est un bois feuillu apprécié pour sa durabilité, son veinage marqué et ses bonnes propriétés mécaniques. Il est utilisé en menuiserie, mobilier et architecture intérieure.",
+    "density": "650–750 kg/m³ (à humidité usuelle)",
+    "price": "800–2 000 €/m³ (très variable)",
+    "priceNote": "Essence, qualité, séchage, débit et provenance influencent fortement le prix.",
+    "properties": [
+      "Bois dur et relativement dense",
+      "Veinage et rayons ligneux visibles",
+      "Bonne durabilité selon classe et mise en œuvre",
+      "Anisotrope : propriétés selon le sens du fil"
+    ],
+    "pros": [
+      "Aspect chaleureux et durable",
+      "Bonne résistance mécanique",
+      "Réparable et rénovable"
+    ],
+    "cons": [
+      "Peut travailler avec les variations d'humidité",
+      "Poids supérieur à de nombreuses essences résineuses",
+      "Tanins pouvant réagir avec certains métaux"
+    ],
+    "uses": [
+      "Mobilier",
+      "Parquets",
+      "Escaliers",
+      "Menuiserie et charpente traditionnelle"
+    ],
+    "process": [
+      "Sciage",
+      "Séchage",
+      "Usinage",
+      "Collage et finition"
+    ],
+    "texture": "https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Texture de bois naturel",
+    "applicationAlt": "Mobilier et aménagement intérieur en bois"
+  },
+  {
+    "id": "hetre",
+    "name": "Hêtre",
+    "category": "Bois",
+    "family": "Bois feuillu",
+    "subtitle": "Bois clair à grain fin",
+    "description": "Le hêtre présente une texture homogène et une bonne aptitude au cintrage à la vapeur. Il est fréquent dans le mobilier, les objets et les aménagements intérieurs.",
+    "density": "680–750 kg/m³ (à humidité usuelle)",
+    "price": "600–1 400 €/m³ (très variable)",
+    "priceNote": "Prix indicatif selon qualité, séchage et dimensions.",
+    "properties": [
+      "Grain fin et régulier",
+      "Bonne résistance en compression",
+      "Bonne aptitude au cintrage à la vapeur",
+      "Durabilité naturelle limitée en extérieur"
+    ],
+    "pros": [
+      "Facile à usiner et à finir",
+      "Aspect clair et homogène",
+      "Adapté aux pièces courbes"
+    ],
+    "cons": [
+      "Sensible à l'humidité",
+      "Durabilité extérieure limitée sans protection",
+      "Peut se déformer si le séchage est mal maîtrisé"
+    ],
+    "uses": [
+      "Chaises et mobilier",
+      "Objets domestiques",
+      "Escaliers intérieurs",
+      "Contreplaqués et placages"
+    ],
+    "process": [
+      "Sciage",
+      "Étuvage et cintrage",
+      "Usinage",
+      "Placage"
+    ],
+    "texture": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Texture de bois clair",
+    "applicationAlt": "Aménagement intérieur et mobilier"
+  },
+  {
+    "id": "contreplaque",
+    "name": "Contreplaqué bouleau",
+    "category": "Bois",
+    "family": "Panneau dérivé du bois",
+    "subtitle": "Plis croisés de placages",
+    "description": "Le contreplaqué de bouleau est constitué de fines feuilles de bois collées avec des fils croisés. Il offre une bonne stabilité et des chants stratifiés caractéristiques.",
+    "density": "600–750 kg/m³",
+    "price": "20–80 €/m² (selon épaisseur et qualité)",
+    "priceNote": "Prix très dépendant du format, de l'épaisseur et du collage.",
+    "properties": [
+      "Plis croisés",
+      "Bonne stabilité dimensionnelle",
+      "Bonne résistance rapportée au poids",
+      "Chants multicouches visibles"
+    ],
+    "pros": [
+      "Panneau stable",
+      "Bonne tenue mécanique",
+      "Usinage précis et chants esthétiques"
+    ],
+    "cons": [
+      "Sensibilité à l'eau selon classe de collage",
+      "Qualité variable selon les faces et les plis",
+      "Présence de colles"
+    ],
+    "uses": [
+      "Mobilier",
+      "Agencement",
+      "Caisses et aménagements",
+      "Découpe CNC"
+    ],
+    "process": [
+      "Déroulage",
+      "Encollage",
+      "Pressage",
+      "Découpe et usinage"
+    ],
+    "texture": "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Panneau et texture bois",
+    "applicationAlt": "Agencement et mobilier"
+  },
+  {
+    "id": "acier",
+    "name": "Acier S235",
+    "category": "Métaux",
+    "family": "Acier de construction non allié",
+    "subtitle": "Acier de construction courant",
+    "description": "L'acier S235 est un acier de construction largement utilisé pour les structures et pièces mécano-soudées. Il est apprécié pour sa disponibilité, sa mise en œuvre et son coût.",
+    "density": "Environ 7 850 kg/m³",
+    "price": "0,8–2,5 €/kg (ordre de grandeur)",
+    "priceNote": "Cours, forme, quantité et transformation font varier le prix.",
+    "properties": [
+      "Limite d'élasticité nominale minimale de 235 MPa selon épaisseur et norme",
+      "Module d'élasticité autour de 210 GPa",
+      "Soudabilité généralement bonne",
+      "Corrosion nécessitant une protection en environnement exposé"
+    ],
+    "pros": [
+      "Très disponible",
+      "Bonne aptitude au soudage",
+      "Coût compétitif",
+      "Recyclable"
+    ],
+    "cons": [
+      "Masse élevée",
+      "Corrosion sans protection adaptée",
+      "Conductivité thermique élevée"
+    ],
+    "uses": [
+      "Charpentes métalliques",
+      "Châssis",
+      "Supports et bâtis",
+      "Pièces mécano-soudées"
+    ],
+    "process": [
+      "Laminage",
+      "Découpe laser ou plasma",
+      "Pliage",
+      "Soudage"
+    ],
+    "texture": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Surface métallique industrielle",
+    "applicationAlt": "Structure et chantier de construction"
+  },
+  {
+    "id": "inox",
+    "name": "Inox 304",
+    "category": "Métaux",
+    "family": "Acier inoxydable austénitique",
+    "subtitle": "Acier Cr-Ni résistant à la corrosion",
+    "description": "L'inox 304 est un acier inoxydable polyvalent contenant du chrome et du nickel. Il offre une bonne résistance à la corrosion dans de nombreux environnements courants.",
+    "density": "Environ 8 000 kg/m³",
+    "price": "3–7 €/kg (ordre de grandeur)",
+    "priceNote": "Dépend du format, de l'état de surface et du marché des alliages.",
+    "properties": [
+      "Bonne résistance à la corrosion atmosphérique",
+      "Bonne aptitude au formage",
+      "Bonne soudabilité",
+      "Non magnétique à l'état recuit en général"
+    ],
+    "pros": [
+      "Durable et hygiénique",
+      "Finition esthétique disponible",
+      "Bonne résistance à de nombreux milieux"
+    ],
+    "cons": [
+      "Plus coûteux que l'acier carbone",
+      "Risque de corrosion localisée dans certains milieux chlorurés",
+      "Usinage parfois exigeant"
+    ],
+    "uses": [
+      "Équipements alimentaires",
+      "Mobilier et architecture",
+      "Cuves et tuyauteries",
+      "Équipements médicaux non implantables"
+    ],
+    "process": [
+      "Laminage",
+      "Découpe",
+      "Pliage",
+      "Soudage et polissage"
+    ],
+    "texture": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Finition métallique",
+    "applicationAlt": "Équipement et aménagement en inox"
+  },
+  {
+    "id": "aluminium",
+    "name": "Aluminium 6061",
+    "category": "Métaux",
+    "family": "Alliage aluminium-magnésium-silicium",
+    "subtitle": "Alliage léger traitable thermiquement",
+    "description": "Le 6061 est un alliage d'aluminium polyvalent, apprécié pour son rapport résistance/masse, son usinabilité et sa résistance à la corrosion. Il est courant en pièces usinées et structures légères.",
+    "density": "Environ 2 700 kg/m³",
+    "price": "3–8 €/kg (ordre de grandeur)",
+    "priceNote": "Selon forme, état métallurgique, quantité et fournisseur.",
+    "properties": [
+      "Faible densité",
+      "Bonne usinabilité",
+      "Résistance mécanique améliorée par traitement thermique",
+      "Bonne résistance à la corrosion"
+    ],
+    "pros": [
+      "Léger",
+      "Facile à usiner",
+      "Bonne disponibilité en tôles, barres et profilés"
+    ],
+    "cons": [
+      "Rigidité inférieure à l'acier à géométrie égale",
+      "Résistance à l'usure limitée sans traitement",
+      "Soudage pouvant réduire localement les propriétés"
+    ],
+    "uses": [
+      "Pièces usinées",
+      "Cadres et structures légères",
+      "Cyclisme et transport",
+      "Équipements et prototypes"
+    ],
+    "process": [
+      "Extrusion",
+      "Laminage",
+      "Usinage CNC",
+      "Traitement thermique"
+    ],
+    "texture": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Surface métallique",
+    "applicationAlt": "Objet technique en aluminium"
+  },
+  {
+    "id": "cuivre",
+    "name": "Cuivre",
+    "category": "Métaux",
+    "family": "Métal non ferreux",
+    "subtitle": "Métal ductile à haute conductivité",
+    "description": "Le cuivre se distingue par ses excellentes conductivités électrique et thermique, sa ductilité et sa teinte caractéristique. Il est essentiel dans l'électricité, les échangeurs et l'architecture.",
+    "density": "Environ 8 960 kg/m³",
+    "price": "7–12 €/kg (ordre de grandeur)",
+    "priceNote": "Très sensible aux cours internationaux et à la pureté.",
+    "properties": [
+      "Conductivité électrique élevée",
+      "Conductivité thermique élevée",
+      "Très bonne ductilité",
+      "Patine naturelle en exposition"
+    ],
+    "pros": [
+      "Excellent conducteur",
+      "Facile à mettre en forme",
+      "Durable et recyclable"
+    ],
+    "cons": [
+      "Prix lié aux marchés des métaux",
+      "Masse volumique élevée",
+      "Oxydation et patine pouvant modifier l'aspect"
+    ],
+    "uses": [
+      "Câblage électrique",
+      "Tuyauterie",
+      "Échangeurs thermiques",
+      "Bardage et détails architecturaux"
+    ],
+    "process": [
+      "Laminage",
+      "Tréfilage",
+      "Emboutissage",
+      "Brasage"
+    ],
+    "texture": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Texture de surface minérale et métallique",
+    "applicationAlt": "Détail d'architecture et de finition"
+  },
+  {
+    "id": "granit",
+    "name": "Granit",
+    "category": "Pierres",
+    "family": "Roche magmatique",
+    "subtitle": "Pierre naturelle grenue",
+    "description": "Le granit est une roche magmatique composée principalement de quartz, feldspaths et micas. Sa dureté et sa résistance à l'usure en font un matériau de construction et de finition recherché.",
+    "density": "2 600–2 800 kg/m³",
+    "price": "40–250 €/m² (selon finition et épaisseur)",
+    "priceNote": "Extraction, origine, format, finition et pose influencent le prix.",
+    "properties": [
+      "Dureté élevée",
+      "Bonne résistance à l'usure",
+      "Faible porosité pour certaines variétés",
+      "Aspect et teinte variables selon carrière"
+    ],
+    "pros": [
+      "Très durable",
+      "Résistant aux rayures et à l'abrasion",
+      "Bonne tenue en extérieur selon variété"
+    ],
+    "cons": [
+      "Masse importante",
+      "Découpe et transport énergivores",
+      "Certaines finitions nécessitent un entretien"
+    ],
+    "uses": [
+      "Plans de travail",
+      "Sols et escaliers",
+      "Façades et dallages",
+      "Monuments et mobilier urbain"
+    ],
+    "process": [
+      "Extraction",
+      "Débitage",
+      "Polissage ou flammage",
+      "Pose"
+    ],
+    "texture": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Surface minérale et pierre",
+    "applicationAlt": "Architecture contemporaine en pierre"
+  },
+  {
+    "id": "marbre",
+    "name": "Marbre",
+    "category": "Pierres",
+    "family": "Roche métamorphique",
+    "subtitle": "Pierre carbonatée à veinage décoratif",
+    "description": "Le marbre est une roche métamorphique principalement composée de calcite ou de dolomite. Son veinage et son poli en font une pierre prisée en architecture et décoration intérieure.",
+    "density": "2 600–2 800 kg/m³",
+    "price": "60–400 €/m² (selon origine et qualité)",
+    "priceNote": "Forte variation selon carrière, sélection, épaisseur et finition.",
+    "properties": [
+      "Aspect veiné caractéristique",
+      "Polissable",
+      "Dureté inférieure au granit",
+      "Sensibilité aux acides pour les marbres calcitiques"
+    ],
+    "pros": [
+      "Esthétique unique",
+      "Surface polissable",
+      "Matériau naturel et réparable par rénovation"
+    ],
+    "cons": [
+      "Sensible aux acides et aux taches",
+      "Rayures possibles",
+      "Entretien plus exigeant selon usage"
+    ],
+    "uses": [
+      "Revêtements muraux",
+      "Sols intérieurs",
+      "Mobilier et tables",
+      "Éléments décoratifs"
+    ],
+    "process": [
+      "Extraction",
+      "Sciage",
+      "Polissage",
+      "Traitement de surface"
+    ],
+    "texture": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Texture de pierre décorative",
+    "applicationAlt": "Intérieur avec matériaux nobles"
+  },
+  {
+    "id": "verre",
+    "name": "Verre sodocalcique",
+    "category": "Verres",
+    "family": "Verre silico-sodo-calcique",
+    "subtitle": "Verre courant de construction et d'emballage",
+    "description": "Le verre sodocalcique est le verre le plus répandu. Il associe silice, soude et chaux et offre transparence, dureté de surface et bonne stabilité chimique dans de nombreux usages.",
+    "density": "Environ 2 500 kg/m³",
+    "price": "5–30 €/m² (verre plat simple, indicatif)",
+    "priceNote": "Épaisseur, traitement, dimensions et transformation changent fortement le prix.",
+    "properties": [
+      "Transparent ou teinté",
+      "Dur et fragile",
+      "Bonne résistance chimique courante",
+      "Mauvaise résistance aux chocs thermiques brutaux"
+    ],
+    "pros": [
+      "Transparence et qualité optique",
+      "Surface dure et facile à nettoyer",
+      "Recyclable dans les filières adaptées"
+    ],
+    "cons": [
+      "Fragile aux chocs",
+      "Risque de rupture par choc thermique",
+      "Masse non négligeable"
+    ],
+    "uses": [
+      "Vitrages",
+      "Bouteilles et contenants",
+      "Mobilier",
+      "Objets du quotidien"
+    ],
+    "process": [
+      "Fusion",
+      "Flottage ou soufflage",
+      "Trempe",
+      "Feuilletage"
+    ],
+    "texture": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Surface vitrée et transparence",
+    "applicationAlt": "Architecture utilisant le verre"
+  },
+  {
+    "id": "borosilicate",
+    "name": "Verre borosilicate",
+    "category": "Verres",
+    "family": "Verre technique",
+    "subtitle": "Verre à faible dilatation thermique",
+    "description": "Le verre borosilicate contient de l'oxyde de bore, ce qui réduit sa dilatation thermique. Il est apprécié pour sa résistance aux variations de température et sa stabilité chimique.",
+    "density": "Environ 2 230 kg/m³",
+    "price": "Variable selon forme et grade",
+    "priceNote": "Les articles transformés coûtent davantage que le verre brut.",
+    "properties": [
+      "Faible coefficient de dilatation",
+      "Bonne résistance au choc thermique relatif",
+      "Bonne résistance chimique",
+      "Transparence élevée"
+    ],
+    "pros": [
+      "Adapté à de nombreux usages thermiques",
+      "Bonne stabilité chimique",
+      "Léger par rapport au verre sodocalcique à volume égal"
+    ],
+    "cons": [
+      "Reste cassant",
+      "Coût supérieur au verre courant",
+      "Ne résiste pas à tous les chocs thermiques ou mécaniques"
+    ],
+    "uses": [
+      "Verrerie de laboratoire",
+      "Ustensiles de cuisson",
+      "Éclairage technique",
+      "Équipements industriels"
+    ],
+    "process": [
+      "Fusion spécialisée",
+      "Soufflage",
+      "Pressage",
+      "Formage de tubes"
+    ],
+    "texture": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Verre transparent",
+    "applicationAlt": "Verrerie et équipement technique"
+  },
+  {
+    "id": "beton",
+    "name": "Béton courant",
+    "category": "Minéraux & construction",
+    "family": "Matériau composite minéral",
+    "subtitle": "Liant hydraulique, granulats et eau",
+    "description": "Le béton est un matériau composite obtenu par mélange de ciment, d'eau, de granulats et éventuellement d'adjuvants. Sa résistance en compression et sa mise en œuvre expliquent son usage massif en construction.",
+    "density": "2 300–2 500 kg/m³",
+    "price": "100–250 €/m³ livré (indicatif)",
+    "priceNote": "Dépend de la formulation, du transport, du volume et de la région.",
+    "properties": [
+      "Bonne résistance en compression",
+      "Résistance en traction faible sans armature",
+      "Masse thermique importante",
+      "Propriétés dépendantes de la formulation et de la cure"
+    ],
+    "pros": [
+      "Moulable dans de nombreuses géométries",
+      "Durable si formulation et mise en œuvre adaptées",
+      "Matières premières largement disponibles"
+    ],
+    "cons": [
+      "Masse élevée",
+      "Empreinte carbone du ciment",
+      "Retrait et fissuration à maîtriser"
+    ],
+    "uses": [
+      "Fondations",
+      "Dalles et voiles",
+      "Ouvrages d'art",
+      "Mobilier et architecture"
+    ],
+    "process": [
+      "Dosage et malaxage",
+      "Coulage ou pompage",
+      "Vibration",
+      "Cure"
+    ],
+    "texture": "https://images.unsplash.com/photo-1517581177682-a085bb7ffb38?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Texture de béton",
+    "applicationAlt": "Structure en béton sur chantier"
+  },
+  {
+    "id": "silicone",
+    "name": "Silicone",
+    "category": "Élastomères",
+    "family": "Élastomère silicone",
+    "subtitle": "Polymère siloxane souple",
+    "description": "Les silicones forment une famille d'élastomères souples qui conservent leurs propriétés sur une large plage de températures. Ils sont utilisés pour l'étanchéité, les joints et les pièces techniques.",
+    "density": "1 100–1 300 kg/m³",
+    "price": "5–20 €/kg (ordre de grandeur)",
+    "priceNote": "Selon dureté, grade, couleur et certification.",
+    "properties": [
+      "Grande élasticité",
+      "Bonne tenue à la chaleur et au froid",
+      "Bonne résistance au vieillissement",
+      "Propriétés électriques isolantes"
+    ],
+    "pros": [
+      "Souplesse durable",
+      "Bonne résistance aux intempéries",
+      "Large choix de duretés et formulations"
+    ],
+    "cons": [
+      "Résistance mécanique variable selon grade",
+      "Adhésion nécessitant parfois un primaire",
+      "Recyclage plus complexe que les thermoplastiques"
+    ],
+    "uses": [
+      "Joints et étanchéité",
+      "Moules",
+      "Équipements médicaux selon grade",
+      "Câbles et composants électriques"
+    ],
+    "process": [
+      "Moulage compression",
+      "Injection LSR",
+      "Extrusion",
+      "Vulcanisation"
+    ],
+    "texture": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Matière souple et surface technique",
+    "applicationAlt": "Détail d'application dans l'habitat"
+  },
+  {
+    "id": "coton",
+    "name": "Coton",
+    "category": "Textiles",
+    "family": "Fibre naturelle cellulosique",
+    "subtitle": "Fibre végétale textile",
+    "description": "Le coton est une fibre naturelle cellulosique utilisée dans l'habillement, l'ameublement et les textiles techniques. Son toucher, son absorption et sa facilité de teinture expliquent sa diffusion.",
+    "density": "Densité de fibre ≈ 1 500 kg/m³",
+    "price": "Variable selon fil, tissu et qualité",
+    "priceNote": "Le prix dépend du grammage, de la finition, de la certification et de l'origine.",
+    "properties": [
+      "Bonne absorption de l'humidité",
+      "Toucher souple",
+      "Bonne aptitude à la teinture",
+      "Froissabilité et retrait possibles"
+    ],
+    "pros": [
+      "Confort au contact",
+      "Respirant et absorbant",
+      "Large disponibilité de tissus et de fils"
+    ],
+    "cons": [
+      "Culture pouvant être consommatrice d'eau",
+      "Froisse et peut rétrécir",
+      "Séchage plus lent que certaines fibres synthétiques"
+    ],
+    "uses": [
+      "Vêtements",
+      "Linge de maison",
+      "Toiles et ameublement",
+      "Textiles techniques"
+    ],
+    "process": [
+      "Égrenage",
+      "Filature",
+      "Tissage ou tricotage",
+      "Teinture et ennoblissement"
+    ],
+    "texture": "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&w=1200&q=85",
+    "application": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1200&q=85",
+    "textureAlt": "Texture de textile naturel",
+    "applicationAlt": "Vêtement en textile"
+  }
+]
